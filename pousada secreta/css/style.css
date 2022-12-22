@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-menu{
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-menu ul {
+    display: flex;
+    margin-top: 2.5vh;
+    flex-wrap:wrap;
+        
+}
+.header-menu li, a{
+    margin-left: 3vh;
+    text-decoration: none;
+    color: black;
+}
+
+.header-menu h2{
+    margin-top: 2.5vh;
+    flex-wrap: wrap;
+    
+}
+
+span{
+    color: orangered;
+}
+
+.banner{
+    position: relative;
+    background-image: url('/assets/img-fundo.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+.texto-banner{
+    position: absolute;
+    top: 30vh;
+    left: 33vw;
+    padding: 5%;
+    background-color: rgba(60, 122, 60, 0.301);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    border-radius:2% ;
+    flex-wrap: wrap;    
+}
+.sobre h2{
+    text-align: center;
+    margin-top: 10vh;
+}
+.sobre > p{
+
+    text-align: center;
+    line-height: 3vh;
+    margin-top: 3vh;
+}
+.quartos {
+    
+    width: 100vw;
+}
+
+.quartos ul {
+    display: flex;
+    justify-content: center; 
+    box-sizing: border-box;
+    margin-top: 10vh;
+    
+}
+
+.quartos li{
+    margin-left: 2vw;
+}
+
+.quartos p{
+    text-align: center;
+    margin-top: 3vh;
+    border-bottom: 2px solid green;
+    padding-bottom: 5vh ;
+}
+.quartos img{
+    width: 25vw;
+
+}
+.endereco > h2{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.endereco > p{
+    text-align: center;
+    margin-top: 5vh;
+}
+iframe{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 5vh;
+}
+.sobre{
+    width: 100vw;
+}
+.sobre-sub > img{
+    width: 10vw;
+    height: 20vh;
+    margin: 3vh 0 0 2vh
+ }
+
+.sobre-sub{
+    display: flex;
+}
+.sobre-pousada > p{
+    text-align: justify;
+    font-size: 10px;
+    
+}
+.sobre-pousada > h3{
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+.sobre-pousada{
+    width: 30vw;
+    margin: 5vh 0 0 5vw 
+}
+.sobre-main{
+    display: flex;
+    flex-grow: 1px ;
+    margin-top: 10vh;
+    
+}
+.sobre-main > img{
+    width: 10vw;
+    height: 20vh;
+    margin: 3vh 0 0 2vh
+}
+.sobre-sub > img{
+    width: 10vw;
+    height: 20vh;
+    margin: 3vh 0 0 2vh
+}

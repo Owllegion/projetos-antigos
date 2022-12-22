@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+span{
+    font-weight: bold;
+}
+.main{
+    background-color: #00010D;
+    height:660px;
+}
+.main-menu{
+    background-color: #0E1426;
+    width: 100%;
+    min-width: 320px;
+    height: 50px;
+    min-height: 20px;
+    position: fixed;
+    top: 0;
+    
+    
+}
+.roxo{
+    text-decoration: none;
+}
+.normal{
+    text-decoration: none;
+    color: white;
+}
+.lista-menu{
+    display: flex;
+    color: white;
+    padding-left:100px ;
+    font-size: 20px;
+    font-family: 'Anek Telugu', sans-serif;
+}
+.lista-menu li{
+    margin-left:30px;
+    margin-top: 15px;
+}
+.roxo, .roxo-h3{
+    color: #D92525;
+}
+.meio{
+    display:flex;
+    width: 100%;
+}
+.list-icone{
+    width: 70px;
+    margin-left: 20px;
+}
+.list-icone ul{
+    margin-top: 200px;
+}
+.list-icone li{
+    margin-bottom: 20px;
+}
+
+.meu-nome{
+    margin-top: 130px;
+    width: 350px;
+    color:white;
+    margin-left: 150px;
+    line-height: 50px;
+}
+h3{
+    font-size: 25px; 
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: normal;
+    
+}
+h2{
+    font-size: 50px;
+    margin-left: 80px;
+    color: #D92525;
+    font-family: 'Antonio', sans-serif;
+    
+}
+.roxo-h3{
+    margin-left: 130px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.sub{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: sans-serif;
+}
+.meu-contato{
+    background-color: #D92525;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left:70px ;   
+}
+.minha-foto img{
+    padding: 0;
+    height: 400px;
+    background-color:#0e142634 ;
+    border-radius: 100%;
+    border: 2px solid #161e36 ;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.sobre-mim{
+    width: 100%;
+    height: 400px;
+}
+.sub-sobre-mim{
+    text-align: center;
+    color: black;
+    font-family: 'Antonio', sans-serif;
+    font-size: 30px;
+    margin-top: 70px;
+    text-decoration: underline;
+    
+}
+.sobre-mim p{
+    text-align: center;
+    margin:80px 300px;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+.tecnologias{
+    background-color:#00010D;
+    width: 100%;
+    height: 500px;
+}
+.card-main{
+    display: flex;
+}
+.minhas-tecnologias, .sub-minhas-tecnologias{
+    text-align: center;
+}
+.minhas-tecnologias{
+    padding-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family: 'Antonio', sans-serif;
+}
+.sub-minhas-tecnologias{
+    color: white;
+    text-decoration: underline;
+    font-family: tahoma;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.card-main{
+    align-items: center;
+    margin: auto;
+    
+    
+}
+.card-tecnologias {
+    width: calc(600px / 3);
+    height: calc(600px /3);
+    border: solid 2px #00010D;
+    box-shadow:5px 5px 5px 5px  black;
+    margin-left: 10px;
+    background-color: #0e142634;
+    margin: auto;
+    padding: 30px;
+    
+}
+.titulo{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color:#D92525;
+    text-decoration: underline;
+    font-family: tahoma;
+    box-shadow:5px 5px 5px 5px  black;             
+}
+.parg{
+    text-align: center;
+    font-size: 18px;
+    color: white; 
+    font-family: sans-serif; 
+    font-weight: normal;
+}
+.titulo-projetos{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.pro{
+    display: flex;
+    overflow-x:scroll;
+    margin: 40px auto 150px auto;
+}
+.pro img{
+    width: 360px;
+    margin-left: 10px;
+    max-width: 1080px;
+}
+.contatos{
+    background-color: #0E1426;
+    padding-bottom: 40px;
+    padding-top: 50px   ;
+}
+.contatos h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -2px;
+}
+.info-contatos{
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px 5px 20px 5px;
+}
+.info-contatos img{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.info-contatos p {
+    margin-bottom:10px;
+    color: #D92525;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.info-contatos h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family: tahoma;
+}

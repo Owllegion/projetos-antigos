@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+}
+.s1{
+    background-color: #afddfb;
+    text-align: center;
+}
+.logo-s1{
+    width: 150px;
+}
+.link-nav{
+    margin: 20px auto 30px auto;
+    font-size:18px ;
+    padding-bottom: 20px;
+}
+.s1 a{
+    text-decoration: none;
+    border-bottom: 1px solid #1d1d1d;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:  #1d1d1d;
+    font-family: tahoma; 
+}
+.s2{
+    margin-top: 50px;
+   text-align: center;
+    padding-top: 0px;
+}
+.sobre-s3{
+    text-align: center;
+}
+.titulo-s3{
+    color: #1d1d1d;
+    font-family:  Tahoma;
+    margin-bottom: 5px;
+}
+.sub-s3, .sub-s5 {
+    font-size: 30px;
+    color: #1c81c0;
+    font-weight: normal;
+
+
+    font-family: tahoma;
+}
+.img-s3, .img-s5{
+    width: 450px;
+}
+.parag-s3 span, .parag-s5 span{
+    color: #1c81c0;
+    font-weight: bold;
+}
+.parag-s3, .parag-s5{
+    font-size: 19px;
+    line-height: 24px;
+    text-align: justify;
+    font-family: tahoma;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 50px; 
+    margin-bottom: 50px ;
+}
+.servico-s4{
+    background-color: #1c81c0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sub-s4,.sub-s6{
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 48px;
+}
+.parag-s4{
+    text-align: center;
+    color: #ffffff;
+    font-family: tahoma;
+    font-size: 22px;
+    line-height: 42px;
+    margin-left: 330px;
+    margin-right: 330px;
+}
+.parag-s4 span, .contatos-s6 span{
+    color: #fff81b;
+    font-weight: bold;
+}
+.list-s4{
+    margin: 40px auto 40px auto;
+    text-align: center;
+    width: 135px;
+}
+.list-s4 li{
+    
+    font-size: 22px;
+    color: #ffffff;
+    text-align: left;
+    line-height: 30px;   
+}
+.corretores-s5{
+    text-align: center;
+}
+
+.contatos-s6{
+    background-color:#1c81c0;
+    text-align: center;
+    padding-bottom: 30px;
+    
+    
+   
+}
+.parg-s6{
+    font-family: tahoma;
+    font-size: 18px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    width: 980px;
+    margin: 30px auto 30px auto;
+    padding: 15px 10px 15px 10px;
+    border-radius: 10px;
+}
+.lista-s6{
+    margin: 40px auto 40px auto;
+}
+.contatos-s6 li{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contatos-s6 a{
+    
+    font-size: 18px;
+    background-color: #ffffff;
+    color:#1c81c0;
+    border-bottom: 1px solid #1c81c0;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+html, body{
+    font-family: sans-serif;
+    height: 100%;
+}
+.topo, .roda-pe{
+    width: 100%;
+    display: flex;
+    background-color:  #f97100;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.area{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+}
+.img-topo{
+    width:100%;
+}
+h2{
+    justify-content: center;
+    font-size: 35px;
+    margin:20px 0 20px 0 ;
+    display: flex;
+}
+.parag-2{
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+ul> img{
+    border: 1px solid red;
+    text-align: center;
+}
+
+.cards img{
+    width: 150px;
+    height: 150px;
+    margin-top:10px ;
+    border: 1px solid red;
+    
+   
+}
+.card{
+    width: 320px;
+    height: 380px;
+    border: 1px solid red;
+    background-color: #ffb500;
+    box-shadow: inset 0px 0px 15px 12px #ed8317;
+    color: white;
+    padding: px;
+    flex-direction: column;
+    margin-left: 0.5% ;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+span {
+    text-align:left;
+    font-size: 30px;
+}
+ul > li{
+    margin-top: 25px;
+    line-height:20px;
+    font-size: 20px;
+}
+li{
+    margin-top:10px ;
+}
+.area-informacoes{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 40px auto;
+}
+.img-scroll{
+    width: 315px;
+    margin: 15px;   
+}
+.link, .parag-3{
+    width: 100%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+.parag-3 > p{
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.link{
+    margin-top: 10px;
+    margin-left: 160px;
+}
